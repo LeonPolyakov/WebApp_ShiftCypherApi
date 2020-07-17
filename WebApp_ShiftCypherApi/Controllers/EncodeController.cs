@@ -49,6 +49,10 @@ namespace WebApp_ShiftCypherApi.Controllers
 
            
         }
+
+        /// <summary>
+        /// This method writes the enciphered string to the file path provided in the path parameter   
+        /// </summary>
         public static void  WriteCipherToFile(string path, string cipher) 
         {           
             try
@@ -80,17 +84,29 @@ namespace WebApp_ShiftCypherApi.Controllers
         
         }
 
+        /// <summary>
+        /// This method loops over each characted in the un-enciphered string and encrypts this caracter using the cipher method
+        /// </summary>
         public static string Encipher(string input, int key)
         {
+            logger.Log(LogLevel.Info, "In the Encipher() method");
             string output = string.Empty;
 
-            foreach (char ch in input)
-                output += cipher(ch, key);
-
+            try
+            {
+                foreach (char ch in input)
+                    output += cipher(ch, key);
+            }
+            catch (Exception ex) {
+                output = "";
+                logger.Log(LogLevel.Error, "Unable to encipher " + ex.ToString());
+            }
             return output;
         }
 
-
+        /// <summary>
+        /// This method accepts a cgaracter to encrypt and returns the encrypted character
+        /// </summary>
         public static char cipher(char ch, int key)
         {
             if (!char.IsLetter(ch))
