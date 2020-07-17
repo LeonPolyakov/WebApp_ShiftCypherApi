@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8qb6gcislIrQu6F0bMTiOfuALUT+W8vUCramyyVNUL6MCS47Z0ty2+qmPeCzQl3DyFf4qvnnstSST1ZR7l45+w==",
+  "dgSpecHash": "atPZR0Z85aLpjHjDNtUGtqfkzb7TOpUSQ9Bq9LW9Sei+P11Mc7hIuXJs84DCLiZtI1yLXi5r4yNKbA+BckDdIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
+  "projectFilePath": "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leon\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Leon\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj": {}
+    "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj": {
+    "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
+        "projectUniqueName": "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
         "projectName": "WebApp_ShiftCypherApi",
-        "projectPath": "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
+        "projectPath": "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi.csproj",
         "packagesPath": "C:\\Users\\Leon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leon\\source\\repos\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\obj\\",
+        "outputPath": "C:\\GitHub\\WebApp_ShiftCypherApi\\WebApp_ShiftCypherApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
