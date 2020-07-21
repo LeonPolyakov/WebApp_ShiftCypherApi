@@ -67,7 +67,7 @@ namespace WebApp_ShiftCypherApi.Controllers
                     }
 
                 }
-                else if (System.IO.File.Exists(path))
+                else  
                 {
                     using (TextWriter tw = new StreamWriter(path))
                     {
